@@ -97,7 +97,7 @@ def compute_length(dataset_type, validation_size_ratio, total_dataset_length, ma
 
 def load(dataset_path):
     print("loading dataset. Ready in a minute!")
-    with open(dataset_path, "r+") as dataset_file:
+    with open(dataset_path, "r") as dataset_file:
         return json.load(dataset_file)
 
 

@@ -4,7 +4,7 @@ DV_MAX=1.5
 MANEUVER_TIME_MAX=48*3600
 
 def create_submission(predictions, output_file, normalize=True):
-    """Create the subimssion in the correct format
+    """Create the submission in the correct format
             Parameters
             ----------
             predictions : np.ndarray
